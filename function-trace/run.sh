@@ -1,6 +1,7 @@
 #!/bin/sh
 
 echo
+echo "#### https://balau82.wordpress.com/2010/10/06/trace-and-profile-function-calls-with-gcc/ ####"
 echo "#### untuk menjalankan pilih 3 lalu 4 ####"
 echo "1. compile"
 echo "2. clean"
