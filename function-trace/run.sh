@@ -7,6 +7,7 @@ echo "1. compile"
 echo "2. clean"
 echo "3. run"
 echo "4. address to function name"
+echo "5. find function name all c source"
 echo
 
 read -p "[+] Please select number: " number
@@ -24,4 +25,7 @@ elif [ "$number" = "3" ]; then
 
 elif [ "$number" = "4" ]; then
       ./readtracelog.sh main trace.out
+elif [ "$number" = "5" ]; then
+      read -p "[+] Function name: " name
+      grep -A1 "$name" `find -name *.c`
 fi
